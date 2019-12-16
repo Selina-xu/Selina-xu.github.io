@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>&#39;demo01&#39;</title>
+      <link href="/2019/12/16/demo01/"/>
+      <url>/2019/12/16/demo01/</url>
+      
+        <content type="html"><![CDATA[<h2 id="下载日志采集filebeat"><a href="#下载日志采集filebeat" class="headerlink" title="下载日志采集filebeat"></a>下载日志采集filebeat</h2><pre><code class="shell">wget https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.3.1-x86_64.rpm</code></pre><h2 id="安装filebeat"><a href="#安装filebeat" class="headerlink" title="安装filebeat"></a>安装filebeat</h2><pre><code class="sh">sudo rpm -ivh filebeat-7.3.1-x86_64.rpm</code></pre><h2 id="编辑配置"><a href="#编辑配置" class="headerlink" title="编辑配置"></a>编辑配置</h2><p>1、执行命令，清空filebeat默认配置</p><pre><code class="shell">echo &quot;&quot;&gt;/etc/filebeat/filebeat.yml</code></pre><p>2、编辑/etc/filebeat/filebeat.yml文件，添加以下配置信息：</p><pre><code>&lt;log_config_detail&gt;</code></pre><h2 id="启动filebeat"><a href="#启动filebeat" class="headerlink" title="启动filebeat"></a>启动filebeat</h2><pre><code>service filebeat start</code></pre><pre><code class="java">package com.unidata.cloud.logservice;import org.springframework.boot.SpringApplication;import org.springframework.boot.autoconfigure.SpringBootApplication;import org.springframework.boot.context.properties.EnableConfigurationProperties;/** * 应用主类 * * @author kangjia@unicloud.com * @date 2019/10/14 16:37 */@SpringBootApplication@EnableConfigurationPropertiespublic class LogServiceApplication {    /**     * 应用主类     *     * @param args args     * @author kangjia     */    public static void main(String[] args) {        SpringApplication.run(LogServiceApplication.class, args);    }}</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> a </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2019/12/16/hello-world/"/>
       <url>/2019/12/16/hello-world/</url>
